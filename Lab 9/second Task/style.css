@@ -1,0 +1,46 @@
+.one {
+	width: 70%;
+	background: yellow;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+body {
+	margin: 0;
+}
+.main {
+	margin-top: 110px;
+	width: 80%;
+	height: 600px;
+	margin-left: 10%;
+	background: lightgreen;
+}
+.inner {
+	width: 60%;
+	height: 400px;
+	backgrounf: yellow;
+	margin-left: 20px;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background-color: violet;
+	position: fixed;
+	top: 0;
+}
+.parent {
+	width: 80%;
+	background: yellow;
+	position: relative;
+	margin-left: 10%;
+}
+.child {
+	width: 50%;
+	height: 200px;
+	background: lightgreen;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	left: auto;
+	top: auto;
+	z-index: 9000;
+}
